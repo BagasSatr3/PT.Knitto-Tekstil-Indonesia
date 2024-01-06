@@ -1,4 +1,4 @@
-function isPalindrome(n) {
+function isPalindrome(n: string): boolean {
   let j = n.length - 1;
   for (let i = 0; i < n.length; i++) {
     if (n[i] != n[j]) {
